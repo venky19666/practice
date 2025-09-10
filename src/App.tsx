@@ -1,14 +1,10 @@
 import "./App.css";
-import { UnControlledFormInput } from "./learnings/form/uncontrolled";
+import { ControlledFormInput } from "./learnings/form/controlled";
 
 function App() {
   return (
     <div>
-      <UnControlledFormInput
-        MailElement={() => {
-          return <div>Mail element</div>;
-        }}
-      />
+      <ControlledFormInput />
     </div>
   );
 }
